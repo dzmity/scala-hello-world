@@ -1,3 +1,7 @@
+import scala.io.StdIn
+
 object HelloWorld extends App {
-    println("Hello World!")
+
+  val name = StdIn.readLine("Enter your name: ")
+  println(s"Hello $name!")
 }
